@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dutch Tutor</title>
+  <link rel="stylesheet" href="/fonts/plein.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="hub-link" href="/" title="Back to your modules">← Modules</a>
+    <a class="brand" href="#/"><span class="flag" aria-hidden="true"><i></i><i></i><i></i></span>Dutch Tutor</a>
+    <nav id="nav"></nav>
+    <div class="tools">
+      <div id="profile" class="profile"></div>
+      <button id="tr-toggle" class="btn tr-toggle" type="button" aria-controls="translator" aria-expanded="false">Translate</button>
+    </div>
+  </header>
+  <aside id="translator" class="translator" aria-label="Translator" hidden></aside>
+  <main id="app"></main>
+  <footer class="foot">
+    <span id="foot-note"></span>
+    <button id="reset" class="link">Reset progress</button>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
